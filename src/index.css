@@ -1,0 +1,121 @@
+body {
+  background-image: linear-gradient(119deg, #3023ae, #53a0fd 47%, #6eb6cc 81%, #b4ec51);
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato,sans-serif !important;
+}
+
+#appHeader {
+  color: white;
+  background-color: blue;
+  text-align: center;
+  border: 3px double white;
+  border-radius: 40px;
+  padding: 5px;
+}
+
+#middleContainer {
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between
+}
+
+#spanTag {
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#gameHeader {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#footerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#myButtons {
+  background-color: blue;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+#standard-basic {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.alert {
+  background-color: blue !important;
+}
+
+#inputFieldContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#dropdown {
+  color: blue;
+  font-weight: bold;
+  display: block;
+  width: 230px;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+option {
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+#instrunctionsContainer {
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  opacity: 0.6;
+}
+
+#messageArea {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#randomWordHeader {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Note: For responsive screen */
+@media screen and ( max-width: 800px ) {
+  #appHeader {
+      font-size: 25px;
+  }
+
+  #gameHeader {
+    font-size: 25px;
+  }
+
+  #spanTag {
+    font-size: 22px;
+  }
+}
+
+/* Styling completed successfully */
