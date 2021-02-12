@@ -33,6 +33,10 @@ body {
   margin-top: 10px;
 }
 
+.totalCountNum {
+  color: darkblue;
+}
+
 #gameHeader {
   color: white;
   text-align: center;
